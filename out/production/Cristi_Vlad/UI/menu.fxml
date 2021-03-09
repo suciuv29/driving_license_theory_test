@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="242.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Controller">
+   <children>
+      <Label layoutX="112.0" layoutY="28.0" text="Meniu">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="77.0" layoutY="125.0" mnemonicParsing="false" onAction="#creeazaChestionar" prefHeight="25.0" prefWidth="150.0" text="Creeaza chestionar" />
+      <Label id="chestionarActiv" layoutX="83.0" layoutY="99.0" text="Nu exista chestionar activ!" />
+      <Button layoutX="77.0" layoutY="166.0" mnemonicParsing="false" onAction="#startQuiz" prefHeight="25.0" prefWidth="150.0" text="Start quiz" />
+   </children>
+</Pane>

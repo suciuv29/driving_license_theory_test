@@ -1,0 +1,40 @@
+Lab5 MAP (rezumat cerinte)
+
+1.
+-un fisier txt cu minim 40 de intrebari
+-chestionar de tip  grila cu 26 de intrebari luate random din cele 40 din fisierul nostru txt.
+
+-fiecare chestionar are: ID, numarul chestionarului , numarul intrebarilor gresite, numarul intrebarilor corecte si o lista cu 26 de intrebari.
+
+-intrebarile se vor arata ori una dupa alta, ori toate deodata.
+
+
+2.
+-chestonarul poate fi completat in maxim 30 de minute sau pana cand utilizatorul va aduna 5 intrebari gresite.
+
+- o intrebare se considera gresita atunci cand se greseste raspunsul SAU cand nu se aleg toate variantele corecte.
+
+
+3.
+- timpul se va calcula intr-un nou Thread/Timer
+
+4.
+- cand timpul a expirat, chsetionarul se opreste si aplicatia arata numarul intrebarilor corecte precum si numarul intrebarilor gresite.
+
+
+5.
+-posibilitatea de a incepe un nou chestionar (la sfarsit)
+
+Sugestii:
+
+-la pornirea aplicatiei se vor incarca intrebarile pentru chestionar.
+-fisierul contine minim 40 de intrebari
+-
+
+Cerinte:
+
+-JavaFx si Threads/Timer
+-Structura OOP (model, controler, ui) pentru clasele necesare
+-fisier pentru Persistence Layer
+
+
